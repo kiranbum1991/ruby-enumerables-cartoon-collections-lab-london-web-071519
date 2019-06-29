@@ -3,7 +3,7 @@ dwarves.each_with_index{|number, i=1| puts "/#{i+1}.*#{number}/ "}
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map { |x| x.capitalize + "!"}
+  planeteer_calls.map { |i| i.capitalize + "!"}
 end
 
 def long_planeteer_calls(calls)
